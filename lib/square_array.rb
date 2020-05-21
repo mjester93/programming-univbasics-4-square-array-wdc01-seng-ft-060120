@@ -3,7 +3,7 @@ def square_array(array)
   new_array = []
 
   array.length.times do |i|
-    new_array.push(i**0.5)
+    new_array.push(i**2)
   end
 
   return new_array
